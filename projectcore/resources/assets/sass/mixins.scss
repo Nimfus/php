@@ -1,0 +1,18 @@
+@mixin transition($transition...) {
+  -moz-transition:    $transition;
+  -o-transition:      $transition;
+  -webkit-transition: $transition;
+  transition:         $transition;
+}
+@mixin border-radius($border-radius) {
+  -webkit-border-radius: $border-radius;
+  -moz-border-radius: $border-radius;
+  border-radius: $border-radius;
+}
+@mixin transform($function) {
+  -webkit-transform: $function;
+  -moz-transform: $function;
+  -ms-transform: $function;
+  -o-transform: $function;
+  transform: $function;
+}

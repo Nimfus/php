@@ -1,0 +1,26 @@
+{
+  "name": "projectcore",
+  "description": "[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework) [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework) [![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework) [![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework) [![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)",
+  "main": "gulpfile.js",
+  "authors": [
+    "Nimfus <nimfus@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.5",
+    "components-font-awesome": "^4.7.0",
+    "summernote": "^0.8.2",
+    "enyo/dropzone": "*",
+    "tether-drop": "^1.4.2",
+    "tether-tooltip": "^1.2.0",
+    "moment": "^2.17.1"
+  }
+}

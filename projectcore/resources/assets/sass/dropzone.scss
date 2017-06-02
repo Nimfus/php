@@ -1,0 +1,39 @@
+.dz-preview {
+  display: inline-block;
+  margin: 1em;
+  text-align: center;
+  .dz-error-message {
+    display: none;
+  }
+  .dz-details {
+    display: none;
+  }
+  .dz-success-mark {
+    display: none;
+    svg {
+      width: 2em;
+    }
+  }
+  .dz-error-mark {
+    display: none;
+    svg {
+      width: 2em;
+    }
+    .dz-remove {
+      position: absolute;
+      top: 1em;
+      content: '';
+    }
+  }
+}
+
+.image-upload-section {
+  border: 1px dashed royalblue;
+  border-radius: 4px;
+  min-height: 2.3em;
+  height: auto;
+  //display: flex;
+  div {
+    //margin: auto;
+  }
+}
